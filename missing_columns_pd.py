@@ -1,4 +1,4 @@
-import dask as dd
+import pandas as pd
 import numpy as np
 
 def miss_cols(df):
@@ -6,7 +6,7 @@ def miss_cols(df):
     
     miss_ind = np.sum(df.isnull(),axis=0) > 0
     
-    vals = dd.Series(filter(lambda x: x != 0,missing))
+    vals = pd.Series(filter(lambda x: x != 0,missing))
      
     cols_miss = df.columns[miss_ind]
 

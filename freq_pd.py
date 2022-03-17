@@ -1,5 +1,4 @@
 import pandas as pd
-
 def proc_freq(df,variable_):  #Note variable_ must be given in quotes example: variable_ = 'xyz'
     datax = df[variable_].value_counts().sort_index()
     
