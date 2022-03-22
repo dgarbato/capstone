@@ -1,0 +1,33 @@
+higher end products
+
+iowa is an alcaholic beverage control state 
+sell directly to the stores 
+
+
+Food and Grocery
+Convenience
+Liquor, Spirits and Wine
+Drugstorre
+Dept. Store
+Distillery/Bar/Restaurant
+
+
+hy-vee
+hy-vee fast and fresh
+sam's club
+wal-mart
+kurn & go 
+super quick mart
+
+cluster items by
+
+bottle volume
+bottle retail
+
+bottles sold
+
+
+'Item Number':str,
+'Bottle Volume (ml)':int,
+'Bottles Sold':int,
+'State Bottle Retail'
