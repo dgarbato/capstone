@@ -1,0 +1,17 @@
+### label_2 = 0 
+
+### convenience stores
+
+
+label_2 = 1
+large supermarkets and liquor stores with the most variety of products
+
+
+label_2 == 2
+drug stores, Walmart, medium size grocery stores and liquor stores, don't carry high end
+
+
+label_2 == 3
+smaller sized supermarkets and liquor stores that carry more high end products
+
+
