@@ -18,12 +18,15 @@ K means  sub clustering  of  Everything Else  4 excludes 50 ml over 10 bucks -wi
 	It creates graphs.
 
 get store information on clusters:
-	Notebook merges final_clusters with the transactions_2021 and stores_2021 to create the DataFrame store_trans_cluster which to be used in additional analysis.
+	It merges store and transactional data and appends cluster information and creates features using the clusters
 	It creates and writes out stores_clust_info_combined2.csv to be used in further analysis
 	It creates stores_in_zips to be used in the notebook, Census Combine Files_zip_level
 
-stores_clust_info_combined2 analysis:
+stores_clust_info_combined2 analysis-new:
 	EDA of stores_clust_info_combined2 which was created in the notebook, get store information on clusters. Notebook also creates hy_vee_liquor_or_spirit_df.csv for use in Census EDA
+
+Percentage of revenue by category for product clusters:
+	Notebook calculates percent of revenue by cateogry for each product cluster 
 
 Kmeans Stores discovered 18 outliers: 
 	Notebook is first attempt to cluster the stores using stores_clust_info_combined2.csv. 18 outliers were discovered mainly distilleries. 	
