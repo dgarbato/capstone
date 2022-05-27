@@ -4,7 +4,11 @@ read  and write out  seperate files for 2017 to 2022:
 
 Liquor 2021 cleaned: Notebook  reads in the file created in above notebook cleans up and creates csv files for use in the project
 
-create data for  product clustering: Notebook name is self explanatory
+Combine Categories: Notebook consolidates category names.  
+	Further consolidation was done using list comprehensions later on in the notebook, Percentage of revenue by category for product clusters
+
+create data for  product clustering: 
+	Notebook name is self explanatory
 
 data quality check:
 	Notebook does EDA to determine that  50 ml minis selling for over 10 dollars need to be excluded from the product clustering data
@@ -64,6 +68,7 @@ Census Combine Files_zip_level:
 
 geopandas-zips:
 	creates maps of Iowa at zip level
+	exports a file land_area_census.csv with land area by zip code for use with Census data.
 
 EDA Census data Newest  Most recent:
 	EDA on census data
